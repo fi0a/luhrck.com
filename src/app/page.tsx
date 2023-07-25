@@ -10,7 +10,7 @@ export default function Home() {
         <h1>Luhrck.com</h1>
 
         <div className="flex flex-col gap-1">
-          <a className={anchorStyle} href="https://don.luhrck.com/fid">mastodon: @fid</a><br />
+          <a className={anchorStyle} href="https://don.luhrck.com/@fid">mastodon: @fid</a><br />
           <a className={anchorStyle} href="https://twitter.com/Fi9c">Twitter: @Fi9c</a><br />
           <a className={anchorStyle} href="https://twitter.com/Fi0a">Twitter: @Fi0a</a><br />
           <a className={anchorStyle} href="https://pixiv.me/filiarc">pixiv: filiarc</a><br />

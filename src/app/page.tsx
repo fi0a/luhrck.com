@@ -11,10 +11,8 @@ export default function Home() {
 
         <div className="flex flex-col gap-1">
           <a className={anchorStyle} href="https://album.luhrck.com">イベントの写真</a><br />
-          <a className={anchorStyle} href="https://pixiv.me/filiarc">pixiv: filiarc</a><br />
           <a className={anchorStyle} href="https://concrnt.world/luhrck.com">Concrnt: @luhrck.com</a><br />
           <a className={anchorStyle} href="https://twitter.com/Fi9c">Twitter: @Fi9c</a><br />
-          <a className={anchorStyle} href="https://twitter.com/Fi0a">Twitter: @Fi0a</a><br />
           <a className={anchorStyle} href="https://bsky.app/profile/luhrck.com">Bluesky: luhrck.com</a><br />
         </div>
       </div>

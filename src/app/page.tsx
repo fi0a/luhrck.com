@@ -10,7 +10,7 @@ export default function Home() {
         <h1>Luhrck.com</h1>
 
         <div className="flex flex-col gap-1">
-          <a className={anchorStyle} href="https://album.luhrck.com">イベントの写真</a><br />
+          <a className={anchorStyle} href="https://album.luhrck.com/share/pYZ3thTCpvNdaV8PUdJ6Wzg8iA9Y_tdkWf3nOpAYi_nau-HtLIH9qOPlFsx3Tx5Xm9o">UTFG2025 Album</a><br />
           <a className={anchorStyle} href="https://concrnt.world/luhrck.com">Concrnt: @luhrck.com</a><br />
           <a className={anchorStyle} href="https://twitter.com/Fi9c">Twitter: @Fi9c</a><br />
           <a className={anchorStyle} href="https://bsky.app/profile/luhrck.com">Bluesky: luhrck.com</a><br />
@@ -19,3 +19,4 @@ export default function Home() {
     </main>
   )
 }
+

@@ -148,6 +148,19 @@ button:focus-visible {
   min-width: 260px;
 }
 
+.group__guideline-link {
+  align-self: flex-end;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 140ms ease;
+}
+
+.group__guideline-link:hover {
+  color: var(--fg);
+}
+
 .group__title {
   margin: 0;
   color: var(--muted);
@@ -224,6 +237,83 @@ button:focus-visible {
   height: auto;
 }
 
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin: 0 auto var(--space-10);
+  max-width: 720px;
+  padding: var(--space-6);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #131c24;
+  box-shadow: var(--shadow-1);
+}
+
+.page__license {
+  display: flex;
+  justify-content: center;
+}
+
+.page__license img {
+  max-width: 124px;
+}
+
+.page__language-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.page__title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.page__lead {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.page__subtitle {
+  margin: var(--space-4) 0 var(--space-2);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+}
+
+.page__language-block p {
+  margin: 0;
+}
+
+.page__language-block p + p {
+  margin-top: var(--space-2);
+}
+
+.page__contact {
+  margin-top: var(--space-4);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  letter-spacing: 0.04em;
+}
+
+.page__contact a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.page__divider {
+  width: 180px;
+  height: 1px;
+  background: var(--line);
+  border: 0;
+  margin: 3px auto;
+}
+
 @media (min-width: 640px) {
   .profile {
     min-height: 42vh;
@@ -234,5 +324,11 @@ button:focus-visible {
     justify-content: center;
     align-items: flex-start;
     gap: var(--space-8);
+  }
+}
+
+@media (min-width: 640px) {
+  .page {
+    padding: var(--space-8) var(--space-10);
   }
 }
